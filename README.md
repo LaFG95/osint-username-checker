@@ -56,8 +56,3 @@ After running, you’ll see:
 Made with ❤️ by LaFG95
 Cybersecurity Student • OSINT Enthusiast
 
-🛡️ Disclaimer
-This tool is for educational and lawful investigative use only.
-Do not use it for harassment, stalking, or any illegal activity.
-You are responsible for how you use this software.
-
