@@ -54,7 +54,13 @@ After running, you’ll see:
 
 🔗 A file like osint_results_username.html will be created and automatically opened in your browser with all found links.
 
+📢 Follow Me
 
+If you want to stay updated on this project, OSINT tools, cybersecurity, crypto, NFTs, and more, join my Telegram channel:
+
+👉 [LaFG95s](https://t.me/LaFG95s) on Telegram
+
+I regularly share my latest work, tutorials, and interesting content there!
 
 👨‍💻 Author
 
