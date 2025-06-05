@@ -2,7 +2,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/LaFG95/osint-username-checker?style=social)](https://github.com/LaFG95/osint-username-checker/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/LaFG95/osint-username-checker)](https://github.com/LaFG95/osint-username-checker/issues)
 [![GitHub forks](https://img.shields.io/github/forks/LaFG95/osint-username-checker?style=social)](https://github.com/LaFG95/osint-username-checker/network)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/LaFG95/osint-username-checker/issues)
 # 🔍 OSINT Username Checker
 
