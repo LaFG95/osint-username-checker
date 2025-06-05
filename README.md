@@ -30,11 +30,11 @@ A powerful multithreaded Python tool to scan **100+ websites** for the existence
 git clone https://github.com/LaFG95/osint-username-checker.git
 cd osint-username-checker
 ```
-Install dependencies
+2. **Install dependencies**
 ```
 python -m pip install -r requirements.txt
 ```
-Run the tool
+3. **Run the tool**
 ```
 python osint.py
 
@@ -44,9 +44,12 @@ Enter a username when prompted. The tool will scan hundreds of services and gene
 🗂 Example Output
 
 After running, you’ll see:
+
 ![image](https://github.com/user-attachments/assets/1b3463f9-14b7-46de-8184-4e065e6571ed)
 
 🔗 A file like osint_results_username.html will be created and automatically opened in your browser with all found links.
+
+
 
 👨‍💻 Author
 
