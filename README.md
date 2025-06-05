@@ -25,6 +25,7 @@ python osint.py
 
 Made with ❤️ by LaFG95
 Cybersecurity Student • OSINT Enthusiast
+
 🛡️ Disclaimer
 
 This tool is for educational and lawful investigative use only.
