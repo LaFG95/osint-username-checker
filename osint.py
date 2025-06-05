@@ -65,25 +65,22 @@ def main():
 
     if found_sites:
         # Create HTML content
-        html_content = "<html><head><title>OSINT Username Search Results</title></head><body>"
-        html_content += f"<h2>Username: {username}</h2>"
-        html_content += "<h3>Found profiles:</h3><ul>"
-        for site, url in found_sites:
-            html_content += f'<li><a href="{url}" target="_blank">{site}</a></li>'
-        html_content += "</ul></body></html>"
+       # Create HTML content
+html_content = """
+<html>
+<head><title>OSINT Username Search Results</title></head>
+<body>
+"""
+html_content += f"<h2>Username: {username}</h2>"
+html_content += "<h3>Found profiles:</h3><ul>"
+for site, url in found_sites:
+    html_content += f'<li><a href="{url}" target="_blank" rel="noopener noreferrer">{site}</a></li>'
+html_content += "</ul>"
 
-        # Save to file
-        filename = f"osint_results_{username}.html"
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write(html_content)
-
-        # Open file in default browser
-        filepath = os.path.abspath(filename)
-        print(f"\nOpening results page: {filepath}")
-        webbrowser.open(f"file://{filepath}")
-
-    else:
-        print("\nNo profiles found.")
-
-if __name__ == "__main__":
-    main()
+# Add Telegram channel promo
+html_content += """
+<hr>
+<p>If you found this tool useful, follow me on Telegram for more OSINT tools, cybersecurity tips, crypto, NFTs, and updates:</p>
+<p><a href="https://t.me/LaFG95s" target="_blank" rel="noopener noreferrer">👉 Join LaFG95s on Telegram</a></p>
+</body></html>
+"""
