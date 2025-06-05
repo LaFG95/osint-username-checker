@@ -1,2 +1,22 @@
-# osint-username-checker
-Simple Python OSINT tool to check usernames across platforms
+# 🔍 OSINT Username Checker
+
+A powerful multithreaded tool to scan over 100+ websites for the existence of a given username. Results are displayed in the terminal and saved to an interactive HTML page.
+
+## 📦 Features
+
+- ✅ Checks usernames on 100+ social media, dev, and community platforms
+- ⚡ Fast multithreaded scanning (via `ThreadPoolExecutor`)
+- 🌐 Opens an HTML report with clickable links to found profiles
+- 📁 Easy to add more sites via `osint_sites.json`
+- 🛡️ Uses standard user-agent headers to reduce blocking
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/osint-username-checker.git
+cd osint-username-checker
+python osint.py
