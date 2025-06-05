@@ -20,3 +20,12 @@ A powerful multithreaded tool to scan over 100+ websites for the existence of a 
 git clone https://github.com/yourusername/osint-username-checker.git
 cd osint-username-checker
 python osint.py
+
+🧑‍💻 Author
+
+Made with ❤️ by LaFG95
+Cybersecurity Student • OSINT Enthusiast
+🛡️ Disclaimer
+
+This tool is for educational and lawful investigative use only.
+Do not use it for harassment, stalking, or any illegal activity.
