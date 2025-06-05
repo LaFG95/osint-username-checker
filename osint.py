@@ -26,7 +26,7 @@ def main():
                 print(f"[EXCEPTION] {site} - {e}")
 
     if found_sites:
-        # Create HTML content inside main
+        # Create HTML content with Telegram promo inside main()
         html_content = """
         <html>
         <head><title>OSINT Username Search Results</title></head>
@@ -38,7 +38,7 @@ def main():
             html_content += f'<li><a href="{url}" target="_blank" rel="noopener noreferrer">{site}</a></li>'
         html_content += "</ul>"
 
-        # Add Telegram channel promo
+        # Telegram promo
         html_content += """
         <hr>
         <p>If you found this tool useful, follow me on Telegram for more OSINT tools, cybersecurity tips, crypto, NFTs, and updates:</p>
@@ -46,6 +46,7 @@ def main():
         </body></html>
         """
 
+        # Save and open report
         filename = f"osint_results_{username}.html"
         with open(filename, "w", encoding="utf-8") as f:
             f.write(html_content)
@@ -53,5 +54,9 @@ def main():
         filepath = os.path.abspath(filename)
         print(f"\nOpening results page: {filepath}")
         webbrowser.open(f"file://{filepath}")
+
     else:
         print("\nNo profiles found.")
+
+if __name__ == "__main__":
+    main()
